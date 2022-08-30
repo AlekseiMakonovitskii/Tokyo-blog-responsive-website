@@ -1,0 +1,21 @@
+.section {
+	transform: translateX(-50%);
+	opacity: 0;
+	transition-duration: 1s;
+}
+
+.animated-section {
+	transform: translateX(0%);
+	opacity: 1;
+}
+
+.header {
+	opacity: 0;
+	transform: translateY(20%);
+	transition-duration: 1s;
+}
+
+.animated-header {
+	transform: translateY(0%);
+	opacity: 1;
+}
